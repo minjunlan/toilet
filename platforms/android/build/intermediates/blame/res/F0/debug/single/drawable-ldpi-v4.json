@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background.png",
+        "source": "/Volumes/dev/nativescript/toilet/platforms/android/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/icon.png",
+        "source": "/Volumes/dev/nativescript/toilet/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/logo.png",
+        "source": "/Volumes/dev/nativescript/toilet/platforms/android/src/main/res/drawable-ldpi/logo.png"
+    }
+]

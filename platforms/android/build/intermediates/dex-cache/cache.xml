@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-24.2.1_938baefda22af71a5e61dcfaa0c654b3f837dada.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-24.2.1_ab16da88fc3007213373ebb98931b50ec220e38d.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-24.2.1_f41366cac4d408155582b94f244cb336d285e855.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/toilet/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="791326bdf152dc35a200aea2938d5e5f2af0c81a">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/toilet-runtime-unspecified_5c96c2267f1946e3c3a421a5d86be0cf2841b09f.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-24.2.1_cac95d3d664a300b87ce2f51cf5267b5d24c4b75.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9eec987a0056adc79d607b32e7e1c41997a434a7">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_3e2f90521c8095291acbdc9230c5d748e8776bfd.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-24.2.1_b5ccc8197dcdb1e634bf8806c7363503ec2efd11.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-24.2.1_eaa3291e8bf3a2d28e3034fbb57f500597e13809.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-24.2.1_6b5ca4aa01af2343d4c71c8d3a7a8a6e0a739ea7.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-24.2.1_d0fa7e031ca2da1f1debe45b1997acc2f3b2ec59.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/toilet/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fea98d375ec6edba3b9192dfecb16864c8c1fb10">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_5551b688cfa5d126b1e57cd3fa16806690b7f94a.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-24.2.1_dff2fb8d2856a98681281effb1a3b19cd27abca4.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-24.2.1_9c44ed74c1bab281923940b7a86fcd7b6c6ed01a.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-24.2.1_a98f5faaba0adabe2fc52042a43ac379e704b31c.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-24.2.1_aa824fed59c36011589df6fc885ccb77ad04890a.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_search_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b73dac26619f94061d28c54a7982ae8e0e783903">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_search_v4_1_1_22179fe2567af7b453f0e3506efdbc4a71778de7.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-24.2.1_bcbe6e3d7edfb4242a3c37d84664e3a1f19352af.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_base_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="00cd7d6a741c6a922c9cf7b0db52a357ebf12cdb">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_base_v4_1_1_a9ca2a5cd3dabbc8cc7135cf928d36145fa8d378.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-24.2.1_58bfa4702b67d037eb624d7d70ef1931915cb2a8.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_radar_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec3b3b79fdcc8fe059676554e31053027043edf8">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_radar_v4_1_1_5b7700d978e08f9377bdbc01ee400d736326417b.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_map_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="930064f0a91ff20ceb8dd4504b7dadec5aabea82">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_map_v4_1_1_97d302f74ac66b3281d99f50aa73d89d5e02e68b.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-24.2.1_aecdc267bab3c92a24889e380a5cfbc1b3aba733.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_util_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d5630c44b212b90ad64c2bc2a994cbf28d1b08a7">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_util_v4_1_1_3fdc924b25c503e3a845f854bfc5a6a0aa9cc583.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/libs/baidumapapi_cloud_v4_1_1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="93ef91d018051b8b5e001eb5e106b983fee8a549">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/baidumapapi_cloud_v4_1_1_4248ba1f93d41028ffbf720872a336d557d95bae.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-24.2.1_a11a4773e365738cf5500abfd22bf0fe5d76d0ff.jar" />
+    </item>
+    <item
+        jar="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Volumes/dev/nativescript/toilet/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-24.2.1_32c6b97ef09b5db39ae09efa65b60bf6fcf79332.jar" />
+    </item>
+
+</items>
