@@ -1,4 +1,4 @@
-declare module "bdmap/bdmap" {
+declare module "bdmap" {
     import observable = require("data/observable");
     import dependencyObservable = require("ui/core/dependency-observable");
     import view = require("ui/core/view");
@@ -17,8 +17,13 @@ declare module "bdmap/bdmap" {
         textWrap: boolean;
         mapType:boolean;
 
+        infos:any;
+
+
         whiteSpace: string;
         formattedText: formattedString.FormattedString;
         _addChildFromBuilder(name: string, value: any): void;
     }
+
+
 }

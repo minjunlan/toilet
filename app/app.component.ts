@@ -1,4 +1,4 @@
-import { Component,ElementRef,ViewChild } from "@angular/core";
+import { Component,ElementRef,ViewChild,OnInit } from "@angular/core";
 import {registerElement} from 'nativescript-angular';
 import { screen } from 'platform';
 
@@ -12,17 +12,35 @@ registerElement('MapView',()=>bdmap.BDMapView);
     templateUrl: "app.component.html",
     styleUrls: ["app.component.css"]
 })
-export class AppComponent  {
+export class AppComponent implements OnInit {
 
     public height:number;
     public title = "百度地图";
     @ViewChild('mapview') mapview: ElementRef;
+
     constructor(){
         this.height = screen.mainScreen.heightPixels;
+        
     }
 
-    show(view:ElementRef){
-        console.log(this.mapview.nativeElement.mapType);
+    ngOnInit(){
+        console.dump(this.mapview.nativeElement.mapType);
     }
 
+    show1(){
+        let str = "";
+        str += "纬度："+ this.mapview.nativeElement.infos.latitude+"\r\n";
+        str += "经度："+ this.mapview.nativeElement.infos.longitude+"\r\n";
+        alert(str);
+    }
+
+    show2(){
+        let str = "";
+        str += "省："+ this.mapview.nativeElement.infos.province+"\r\n";
+        str += "市区："+ this.mapview.nativeElement.infos.city+"\r\n";
+        str += "县："+ this.mapview.nativeElement.infos.district+"\r\n";
+        str += "街道："+ this.mapview.nativeElement.infos.street+"\r\n";
+        str += this.mapview.nativeElement.infos.netType;
+        alert(str);
+    }
 }

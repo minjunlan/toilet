@@ -87,4 +87,10 @@ var BDMapView = (function (_super) {
     return BDMapView;
 }(view.View));
 exports.BDMapView = BDMapView;
+var MyInfos = (function () {
+    function MyInfos() {
+    }
+    return MyInfos;
+}());
+exports.MyInfos = MyInfos;
 //# sourceMappingURL=bdmap-common.js.map

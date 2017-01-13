@@ -1,6 +1,11 @@
 <StackLayout class="">
     <ActionBar [title]="title" class="action-bar actionbg">
-
+        <ActionItem text="Item" ios.position="right" android.position="popup">
+            <Label text="地理位置" textWrap="true" (tap)="show1()"></Label>
+        </ActionItem>
+        <ActionItem text="Item" ios.position="right" android.position="popup">
+            <Label text="城市信息" textWrap="true" (tap)="show2()"></Label>
+        </ActionItem>
     </ActionBar>
     <MapView #mapview [height]="height" mapType="true"></MapView>
 </StackLayout>

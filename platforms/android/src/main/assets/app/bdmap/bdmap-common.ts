@@ -1,6 +1,6 @@
 import {Property, PropertyMetadataSettings, PropertyChangeData} from "ui/core/dependency-observable";
 import view = require("ui/core/view");
-import definition = require("bdmap/bdmap");
+import definition = require("bdmap");
 import proxy = require("ui/core/proxy");
 import formattedString = require("text/formatted-string");
 import observable = require("data/observable");
@@ -37,6 +37,8 @@ export class BDMapView extends view.View implements definition.BDMapView {
         public static mapTypeProperty = mapTypeProperty;
         public static tapEvent = 'tap';
         BaiduMap: any /* com.baidu.mapapi.map.BaiduMap */;
+
+        infos:MyInfos;
 
         get text(): string {
             return this._getValue(BDMapView.textProperty);
@@ -85,6 +87,16 @@ export class BDMapView extends view.View implements definition.BDMapView {
         _addChildFromBuilder(name: string, value: any){
             formattedString.FormattedString.addFormattedStringToView(this, name, value);
         }
+}
+
+export  class MyInfos{
+    public latitude:number;
+    public longitude:number;
+    public province:string;
+    public city:string;
+    public district:string;
+    public street:string;
+    public netType:number;
 }
 
 
