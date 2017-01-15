@@ -139,6 +139,94 @@ declare module com {
                         onGetPoiIndoorResult(result:PoiIndoorResult);
                     }
                 }
+                module route {
+                    export class RoutePlanSearch {
+                        public static  newInstance():RoutePlanSearch;
+                        public setOnGetRoutePlanResultListener(listener:OnGetRoutePlanResultListener);
+                        public transitSearch(option:WalkingRoutePlanOption):boolean;//发起换乘路线规划
+                        public masstransitSearch(option:MassTransitRoutePlanOption):boolean;//跨城公共交通路线
+                        public walkingIndoorSearch(option:IndoorRoutePlanOption):boolean;//发起室内路线规划
+                        public walkingSearch(option:WalkingRoutePlanOption):boolean;//发起步行路线规划
+                        public drivingSearch(option:DrivingRoutePlanOption):boolean;//发起驾车路线规划
+                        public bikingSearch(option:BikingRoutePlanOption):boolean;//发起骑行路线规划                        
+                    }
+                    export class OnGetRoutePlanResultListener implements IOnGetRoutePlanResultListener{
+                        constructor(implements:IOnGetRoutePlanResultListener);
+
+                        onGetBikingRouteResult( result:BikingRouteResult );//骑行路线结果回调
+                        onGetDrivingRouteResult( result:DrivingRouteResult );//驾车路线结果回调
+                        onGetIndoorRouteResult( result:IndoorRouteResult );//室内路线规划回调
+                        onGetMassTransitRouteResult( result:MassTransitRouteResult );//跨城公共交通路线结果回调
+                        onGetTransitRouteResult( result:TransitRouteResult );//换乘路线结果回调 
+                        onGetWalkingRouteResult( result:WalkingRouteResult )//步行路线结果回调
+                    }
+                    export interface IOnGetRoutePlanResultListener {
+                        onGetBikingRouteResult( result:BikingRouteResult );//骑行路线结果回调
+                        onGetDrivingRouteResult( result:DrivingRouteResult );//驾车路线结果回调
+                        onGetIndoorRouteResult( result:IndoorRouteResult );//室内路线规划回调
+                        onGetMassTransitRouteResult( result:MassTransitRouteResult );//跨城公共交通路线结果回调
+                        onGetTransitRouteResult( result:TransitRouteResult );//换乘路线结果回调 
+                        onGetWalkingRouteResult( result:WalkingRouteResult )//步行路线结果回调
+                    }
+                    export class PlanNode {
+                        constructor(inver:android.os.Parcel);
+                        public static withLocation(location:com.baidu.mapapi.model.LatLng):PlanNode;
+                        public static withCityNameAndPlaceName(city:string,
+                                placeName:string):PlanNode;
+                        public static withCityCodeAndPlaceName(city:number,
+                                placeName:string):PlanNode;
+                    }
+                    export class BikingRouteResult{
+
+                    }
+                    export class DrivingRouteResult{
+
+                    }
+                    export class IndoorRouteResult{
+
+                    }
+                    export class MassTransitRouteResult{
+
+                    }
+                    export class TransitRouteResult{
+
+                    }
+                    export class WalkingRouteResult{
+                        describeContents():number;
+                        getSuggestAddrInfo():SuggestAddrInfo;
+                        getRouteLines():Array<WalkingRouteLine>;
+                    }
+                    export class WalkingRoutePlanOption {
+                        public from( from:PlanNode ): WalkingRoutePlanOption;
+                        public to( to:PlanNode ): WalkingRoutePlanOption;
+                    }
+                    export class TransitRoutePlanOption {
+
+                    }
+                    export class MassTransitRoutePlanOption {
+
+                    }
+                    export class IndoorRoutePlanOption {
+
+                    }
+                    export class DrivingRoutePlanOption {
+
+                    }     
+                    export class BikingRoutePlanOption {
+
+                    }     
+                    export class SuggestAddrInfo {
+
+                    }   
+                    export class WalkingRouteLine {
+                        getAllStep():Array<WalkingRouteLine.WalkingStep>;
+                    }  
+                    module WalkingRouteLine {
+                        export class WalkingStep {
+
+                        }
+                    }                          
+                }
             }
         }
         module location {

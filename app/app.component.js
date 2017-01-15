@@ -21,11 +21,11 @@ var AppComponent = (function () {
     };
     AppComponent.prototype.show2 = function () {
         var str = "";
-        str += "省：" + this.mapview.nativeElement.infos.province + "\r\n";
-        str += "市区：" + this.mapview.nativeElement.infos.city + "\r\n";
-        str += "县：" + this.mapview.nativeElement.infos.district + "\r\n";
-        str += "街道：" + this.mapview.nativeElement.infos.street + "\r\n";
-        str += this.mapview.nativeElement.infos.netType;
+        // str += "省："+ this.mapview.nativeElement.infos.province+"\r\n";
+        // str += "市区："+ this.mapview.nativeElement.infos.city+"\r\n";
+        // str += "县："+ this.mapview.nativeElement.infos.district+"\r\n";
+        // str += "街道："+ this.mapview.nativeElement.infos.street+"\r\n";
+        str = this.mapview.nativeElement.infos.arr;
         alert(str);
     };
     __decorate([

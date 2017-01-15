@@ -20,6 +20,8 @@ export class BDMapView extends common.BDMapView {
     public  mPoiSearch:com.baidu.mapapi.search.poi.PoiSearch;
     private _listener: com.baidu.location.BDLocationListener;
     private _poiListener: com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener;
+    private _routeListener: com.baidu.mapapi.search.route.OnGetRoutePlanResultListener;
+    private _mSearch: com.baidu.mapapi.search.route.RoutePlanSearch;
 
     private num = 0;
     private _latitude:number;
@@ -40,8 +42,10 @@ export class BDMapView extends common.BDMapView {
     public _createUI() {   
         this._init(); //初始化
         //if(!this._android) return ;
-        this.setLocation();//设置定位
+        //this.setLocation();//设置定位
         //this.setSearch();
+
+        this.setRoutePlanSearch();
     }
 
     private _init(){
@@ -104,7 +108,7 @@ export class BDMapView extends common.BDMapView {
             });
         
         let listenoption = new com.baidu.location.LocationClientOption();
-        let span = 1000;
+        let span = 3000;
         listenoption.setLocationMode(com.baidu.location.LocationClientOption.LocationMode.Hight_Accuracy);
         listenoption.setCoorType("bd09ll");
         listenoption.setScanSpan(span);
@@ -144,8 +148,51 @@ export class BDMapView extends common.BDMapView {
        
     }
 
+    public setRoutePlanSearch() {
+        let that = new WeakRef(this);
+        this._mSearch = com.baidu.mapapi.search.route.RoutePlanSearch.newInstance();
+        this._routeListener = new com.baidu.mapapi.search.route.OnGetRoutePlanResultListener(
+            <com.baidu.mapapi.search.route.IOnGetRoutePlanResultListener>{
+                get owner() {
+                    return that.get();
+                },
+                onGetWalkingRouteResult: function(result:com.baidu.mapapi.search.route.WalkingRouteResult){
+                    if (this.owner) {
+                        this.owner._onGetWalkingRouteResult(result);
+                    }
+                },
+                onGetBikingRouteResult: function(result:com.baidu.mapapi.search.route.BikingRouteResult){
+
+                },
+                onGetDrivingRouteResult: function(result:com.baidu.mapapi.search.route.DrivingRouteResult){
+
+                },
+                onGetIndoorRouteResult: function(result:com.baidu.mapapi.search.route.IndoorRouteResult){
+
+                },
+                onGetMassTransitRouteResult: function(result:com.baidu.mapapi.search.route.MassTransitRouteResult){
+
+                }, 
+                onGetTransitRouteResult: function(result:com.baidu.mapapi.search.route.TransitRouteResult){
+
+                },                                                                
+            }
+        );
+        this._mSearch.setOnGetRoutePlanResultListener(this._routeListener);
+        let startNode = com.baidu.mapapi.search.route.PlanNode.withCityNameAndPlaceName("北京","天安门");
+        let endNode   = com.baidu.mapapi.search.route.PlanNode.withCityNameAndPlaceName("北京","北站");
+        this._mSearch.walkingSearch(new com.baidu.mapapi.search.route.WalkingRoutePlanOption().from(startNode).to(endNode))
+    }
+
     private _onGetPoiResult(result:com.baidu.mapapi.search.poi.PoiResult){
         console.dump(result);
+        //this.mPoiSearch.destroy();
+    }
+
+    private _onGetWalkingRouteResult(result:com.baidu.mapapi.search.route.WalkingRouteResult){
+        let arr = result.getRouteLines();
+        this.infos.arr = arr;
+        alert(arr);
         //this.mPoiSearch.destroy();
     }
 }

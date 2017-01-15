@@ -97,6 +97,7 @@ export  class MyInfos{
     public district:string;
     public street:string;
     public netType:number;
+    public arr:Array<any>;
 }
 
 
